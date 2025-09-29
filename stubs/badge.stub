@@ -1,0 +1,16 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Bnacci\Gamio\Badge;
+
+class $CLASS_NAME$Badge extends Badge
+{
+    protected $gainIn = $GAIN_IN$;
+    protected $id = "$BADGE_ID$";
+    protected $name = "$BADGE_NAME$";
+    
+    public function icon() : string | null {
+        return null;
+    }
+}
